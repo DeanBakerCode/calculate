@@ -1,0 +1,19 @@
+.reset {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 0;
+	border-radius: 0 0 8px 8px;
+}
+
+svg {
+	width: 18px;
+	height: 18px;
+}
+path {
+	fill: rgb(85, 85, 85);
+}
+.reset:hover {
+	background-color: rgba(0, 0, 0, 0.04);
+	cursor: pointer;
+}

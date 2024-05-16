@@ -1,0 +1,18 @@
+.home_hero {
+	display: flex;
+	gap: 5%;
+}
+
+.home_hero_Banner {
+	font-size: 60px;
+	margin: 0;
+}
+.home_hero_Banner-support {
+	font-size: 18px;
+}
+.home_hero_img {
+	width: 60%;
+}
+.home_hero_img img {
+	width: 100%;
+}
