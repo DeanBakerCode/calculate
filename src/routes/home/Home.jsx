@@ -7,7 +7,8 @@ export default function Home() {
 			<div className='home_hero'>
 				<div>
 					<h2 className='home_hero_Banner'>
-						Your calculations <br /> like <em>easy as!</em>
+						Your
+						<br /> calculations <br /> like <em>easy as!</em>
 					</h2>
 					<h2 className='home_hero_Banner-support'>
 						Tools that will enable you to make good decisions at work and home. <br /> New calculators are being added all the time.

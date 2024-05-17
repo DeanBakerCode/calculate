@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { CalcItem, Reset } from '../../ui';
+import { CalcItem, ExternalLink, Reset } from '../../ui';
 import '../calcStyles.css';
 
 export default function Margin() {
@@ -49,9 +49,7 @@ export default function Margin() {
 					margin changes provide useful indicators for assessing growth potential, investment viability and the financial stability of a
 					company relative to its competitors. Maintaining a healthy profit margin will help to ensure the financial success of a business.
 					<br />
-					<a href='https://en.wikipedia.org/wiki/Profit_margin' target='_blank'>
-						<em>Wikipedia extract</em>
-					</a>
+					<ExternalLink title='Wikipedia' url='https://en.wikipedia.org/wiki/Profit_margin' />
 				</p>
 			</div>
 

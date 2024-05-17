@@ -1,9 +1,12 @@
 .home_hero {
 	display: flex;
-	gap: 5%;
+	gap: 4%;
 }
 
 .home_hero_Banner {
+}
+.home_hero_Banner,
+h2 {
 	font-size: 60px;
 	margin: 0;
 }
@@ -11,8 +14,11 @@
 	font-size: 18px;
 }
 .home_hero_img {
-	width: 60%;
+	width: 50%;
 }
 .home_hero_img img {
-	width: 100%;
+	display: block;
+	margin: auto;
+	max-height: 300px;
+	object-fit: cover;
 }

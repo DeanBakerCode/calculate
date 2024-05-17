@@ -18,7 +18,7 @@
 a {
 	text-decoration: none;
 }
-a:visited {
+.navBar a:visited {
 	color: var(--text-color);
 	/* text-decoration: none; */
 }
@@ -76,6 +76,7 @@ ul {
 	display: block;
 	top: 32px;
 	left: -4px;
+	animation: fadeIn 200ms ease-in-out;
 }
 
 @keyframes fadeIn {
@@ -86,8 +87,8 @@ ul {
 		opacity: 1;
 	}
 }
+
 .subNav {
-	animation: fadeIn 200ms linear;
 	display: none;
 	position: absolute;
 	min-width: 200px;
